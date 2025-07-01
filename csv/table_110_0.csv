@@ -1,0 +1,30 @@
+0,1,2
+Sr. No,Core Metadata Elements,Definition
+1,Metadata language,English
+2,Metadata Contact,MOSDAC
+3,Metadata date,June 2018
+4,Data Lineage or Quality,Rain Rate
+5,Title,Bayesian based MT-SAPHIR rainfall
+6,Abstract,"Megha- Tropiques (MT) is a joint Indo-French collaborative satellite mission, which is launched on 12 October 2011. The main objective of MT is to get more understanding on convective system, energy exchange and water cycle in the tropical region. It is equipped with Microwave Analysis and Detection of Rain and Atmospheric Structures (MADRAS) (not in operational), Scanner for Radiation Budget and Radio Occultation Sensor for Atmosphere and Sondeur Atmospherique du Profil d’Humidite Intertropical par Radiometrie (SAPHIR). SAPHIR provides clear sky atmospheric humidity profiles at 6-channels near 183.31GHz water vapour resonance. The observations of SAPHIR provides an opportunity to estimate rainfall using 183.31GHz channels. A Bayesian based rainfall retrieval technique is developed using SAPHIR channel-6 (183.31±11GHz) brightness temperature observations. Estimated rainfall has been validated with IMERG and DPR products during Jan-Dec 2017. The global distribution of rainfall patterns are captured well by the estimation."
+7,Dataset Contact,"Neerja Sharma and Kaushik Gopalan, GRD/AOSG/EPSA, Space Applications Centre (ISRO), Ahmedabad, 380015, kaushikg@sac.isro.gov.in"
+8,Update Frequency,January 2017 to May 2018 have been processed. Data will be updated daily with ~24 hours lag.
+9,Access Rights or Restriction,Open Access
+10,Spatial Resolution,Data is provided at native spatial resolution of the SAPHIR instrument.
+11,Language,English
+12,Topic Category,Rainfall
+13,Keywords,"Microwave sounder, Bayesian technique, rainfall"
+14,Date or period,From January 2017 onwards.
+15,Responsible Party,"Neerja Sharma and Kaushik Gopalan,GRD/AOGG/ EPSA, Space Applications Centre (ISRO), Ahmedabad-380015, India"
+16,Organization,"Space Applications Centre (ISRO), Ahmedabad, India"
+16a,Org. role,Rainfall retrieval from MT-SAPHIR observations
+16b,Individual name,"Neerja Sharma, GRD/AOSG/EPSA, SAC(ISRO), Ahmedabad-380015, India. Ph:+91 79 26916115. Email:neerjasharma@sac.isro.gov.in Kaushik Gopalan, GRD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 6110. Email: kaushikg@sac.isro.gov.in"
+16c,Position,"Scientist/Engineer, GRD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015"
+16d,"Vertical Extent (minimumValue, maximumValue, unitOfMeasure, vertical datum)",
+17,Geographic Extent,Tropical region (28S to 28N)
+18,"Geographic name, geographic Identifier","lat_min: 28S, lat_max: 28N, lon_min: 0, lon_max: 360"
+19,Bounding box,"lat_min: 28S, lat_max: 28N, lon_min: 0, lon_max: 360"
+20,Temporal Extent,January 2017 onwards
+21,Access Rights or Restrictions,Open Access
+22,Distribution Information,Online download of data files in HDF5 format
+23,Processing Level,Level 2 (Data product derived from MT SAPHIR)
+24,Reference System,Datum: WGS84

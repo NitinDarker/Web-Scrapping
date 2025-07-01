@@ -1,0 +1,36 @@
+0,1,2
+Sr. No,Core Metadata Elements,Definition
+1,Metadata language,English
+2,Metadata Contact,MOSDAC
+3,Metadata date,"July 20, 2015"
+4,Data Lineage or Quality,Water height estimation and computation of river discharge over Godavari using radar altimeters
+5,Title,Satellite Altimetry derived discharge over Godavari River during 2002-2015
+6,Abstract,River heights and river discharge have been estimated using ENVISAT and SARAL/AltiKa over two sites and using Jason-2 over one site along Godavari River. The results arevalidated well with the in-situ data.
+7,Dataset Contact,"Dr. Rashmi Sharma OSD/AOSG/EPSA (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 6044. Email: rashmi@sac.isro.gov.in"
+8,Update frequency,SARAL/AltiKa and ENVISAT are in 35 day and Jason-2 10 day repetition period
+9,Access Rights or Restriction,Open Access
+10,Spatial Resolution,
+11,Language,English
+12,Topic Category,Water height estimation and estimation of river discharge
+13,Keywords,"River, Satellite altimeters, river height, range corrections, rating curve"
+14,Date or period,"ENVISAT (June 2002 to September 2010), Jason-2 ( July 2008 to December 2014) and SARAL/AltiKa (March 2013)"
+15,Responsible Party,"Dr. Rashmi Sharma OSD/AOSG/EPSA (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 6044. Email: rashmi@sac.isro.gov.in"
+16,Organization,"Space Applications Centre (ISRO), Ahmedabad, India"
+16a,Org. role,Estimation of river discharge using Remote sensing techniques
+16b,"Vertical Extent (minimumValue, maximumValue, unitOfMeasure, vertical datum)",Unit of measurement = meter for river height and m3/s for river discharge Datum: WGS84
+17,Geographic Extent,"UL Coordinates: 19N, 80.5E UR Coordinates: 19N, 82.5E LL Coordinates: 16N, 80.5E LR Coordinates: 16N, 82.5E"
+"UL Coordinates: 19N, 80.5E",,
+"UR Coordinates: 19N, 82.5E",,
+"LL Coordinates: 16N, 80.5E",,
+"LR Coordinates: 16N, 82.5E",,
+18,"Geographic Name, Geographic Identifier",Godavari river
+19,Bounding box,"UL Coordinates: 19N, 80.5E UR Coordinates: 19N, 82.5E LL Coordinates: 16N, 80.5E LR Coordinates: 16N, 82.5E"
+"UL Coordinates: 19N, 80.5E",,
+"UR Coordinates: 19N, 82.5E",,
+"LL Coordinates: 16N, 80.5E",,
+"LR Coordinates: 16N, 82.5E",,
+20,Temporal Extent,Time series plot of water heights and river discharge over Godavari river since 2002.
+21,Access Rights or Restrictions,Open Access
+22,Distribution Information,Online download in .txt format
+23,Processing Level,Level 3 (Data product derived from altimeter GDR data)
+24,Reference System,Datum: WGS84

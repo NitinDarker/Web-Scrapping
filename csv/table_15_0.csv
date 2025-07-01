@@ -1,0 +1,2 @@
+Sr.No,Product  / Acq Calendar/Version,Product Description,Processing Level,Temporal Resolution,Start Date,End Date,Processing Status,DOI,Unnamed: 9
+{{$index + 1}},{{allproduct.name}},{{allproduct.description}},{{allproduct.processlevel}},{{allproduct.frequency | uppercase}},{{allproduct.startdate}},{{allproduct.enddate}},{{allproduct.actv}},{{allproduct.actv}},{{allproduct.techdoc}}

@@ -1,0 +1,3 @@
+0,1
+{{layer.dateval}} {{layer.timeval}} {{layer.dateval_local}} {{layer.timeval_local}},
+{{layer.sensor}}/{{layer.satellite}},

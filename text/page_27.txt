@@ -1,0 +1,270 @@
+### https://mosdac.gov.in/river-discharge ###
+
+River Discharge | Meteorological & Oceanographic Satellite Data Archival Centre
+Skip to main Content
+-
+A
+A
++
+A
+A
+A
+हिन्दी
+English
+Secondary menu
+SignUp
+Login
+Logout
+Meteorological & Oceanographic Satellite Data Archival Centre
+Space Applications Centre, ISRO
+Home
+Missions
+INSAT-3DR
+INSAT-3D
+KALPANA-1
+INSAT-3A
+MeghaTropiques
+SARAL-AltiKa
+OCEANSAT-2
+OCEANSAT-3
+INSAT-3DS
+SCATSAT-1
+Catalog
+Satellite
+Insitu (AWS)
+RADAR
+Galleries
+Satellite Products
+Weather Forecast
+Ocean Forecast
+RADAR (DWR)
+Global Ocean Current
+Data Access
+Order Data
+Open Data
+Atmosphere
+Bayesian based MT-SAPHIR rainfall
+GPS derived Integrated water vapour
+GSMap ISRO Rain
+METEOSAT8 Cloud Properties
+Land
+3D Volumetric TERLS DWRproduct
+Inland Water Height
+River Discharge
+Soil Moisture
+Ocean
+Global Ocean Surface Current
+High Resolution Sea Surface Salinity
+Indian Mainland Coastal Product
+Ocean Subsurface
+Oceanic Eddies Detection
+Sea Ice Occurrence Probability
+Wave based Renewable Energy
+Cal-Val
+Forecast
+RSS Feeds
+Reports
+Calibration
+Insitu
+Relative
+Validation
+Data Quality
+Weather
+Atlases
+Tools
+Sitemap
+Help
+You are here
+Home
+»
+Data Access
+»
+Open Data
+»
+Land
+» River Discharge
+River Discharge
+River heights from satellite altimeters (ENVISAT, Jason-2 and SARAL AltiKa) have been derived at two cross-over points along Godavari River. Subsequently, river height discharge stage relationship between altimetry derived heights and In-situ river discharge has been established. Using this relationship, river discharge database for Godavari River for the period i.e. 2002 - 2015 has been generated.
+Data Access
+Click Here
+to access the Science Products . Request to use MOSDAC Single Sign On user credentials to download the data.
+Data Version
+Version 1.0 (beta)
+Data Sources
+1. GDR tracked data of ENVISAT and Jason-2 (PISTACH Hydrology) at Yanam (estuarine side) and Bhadrachalam (riverine side) for the entire period of respective missions were obtained from
+a. ENVISAT website(
+http://earth.esa.int/
+)
+b.AVISO website(
+http://www.avisooceanobs.com
+)(Jason-2)
+2. SARAL/AltiKa data were obtained from MOSDAC website (
+http://www.mosdac.gov.in
+)
+Processing Steps
+The given range was corrected for
+path delay in the atmosphere through which the radar pulse passes
+the nature of the reflecting sea surface
+All range corrections are added to the range
+Rating curve methodology was developed between Altimeter river height and in-situ river discharge (Rantz et al. 1982).
+References
+Coastal and Hydrology Altimetry product (PISTACH), handbook 2010.
+Frappart, F., S. Calmant, M. Cauhope, F. Seyler, and A. Cazenave (2006), Validation of ENVISAT RA-2 derived water levels over the Amazon Basin, Remote Sens. Environ., 100, 252 - 264, doi:10.1016/j.rse.2005.10.027.
+Rantz, S. E., et al. (1982), Measurement and computation of streamflow: Volume 2. Computation of discharge, Water Supply Paper 2175, U.S. Geol. Surv., pp. 285 - 631.
+Santos da Silva, J., S. Calmant, F. Seyler, O. C. R. Filho, G. Cochonneau, and W. J. Mansur (2010), Water levels in the Amazon basin derived from the ERS 2 and ENVISAT radar altimetry missions, Remote Sens. Environ., 114, 2160?2181, doi:10.1016/j.rse.2010.04.020.
+SMMR and DMSP SSM/I-SSMIS Passive Microwave Data. [October 1978 to December 2012]. Boulder, Colorado USA: NASA National Snow and Ice Data CentreDistributed Active Archive Centre.
+Derivation Techniques and Algorithm
+The observed river height with respect to geoid is given by
+Rh= H
+sat
+-(R+C
+w
++C
+d
++C
+i
++C
+st
++C
+p
+)       (1)
+Where
+H
+sat
+represents the satellite altitude with respect to reference ellipsoid
+R represents the satellite range
+C
+w
+(w for wet tropospheric)and C
+d
+(d for dry tropospheric) are corrections for delayed propagation in the atmosphere
+C
+i
+is the correction delayed propagation through the ionosphere
+C
+st
+and C
+p
+represents the correction for solid and polar tides respectively.
+Limitations
+Based on the availability of the Altimeter dataset over the study region (data gap, altimeter track loss, loss of flooding events, etc.).
+Known problems with data
+Data problems due to bad weather (heavy rain)
+Related data collections
+Limited daily in-situ river discharge data (2007 - 2012) available along Godavari River were obtained from Dowlaiswaram Dam Authorities, Andhra Pradesh.
+Hourly river heights/water levels were provided by Dr. Prakash Mehra, NIO Radar gauge at Yanam (Godavari Estuary) for the period 2008 - 2010.
+File Naming Convention
+Altimetername_derived_water_height_river_discharge_
+Godavari_stationname_starting_date_ending_date
+Envisat_derived_water_height_river_discharge_
+Godavari_Bhadrachalam_Oct2002_Sep2010.txt
+MetaData
+Sr. No
+Core Metadata Elements
+Definition
+1
+Metadata language
+English
+2
+Metadata Contact
+MOSDAC
+3
+Metadata date
+July 20, 2015
+4
+Data Lineage or Quality
+Water height estimation and computation of river discharge over Godavari using radar altimeters
+5
+Title
+Satellite Altimetry derived discharge over Godavari River during 2002-2015
+6
+Abstract
+River heights and river discharge have been estimated using ENVISAT and SARAL/AltiKa over two sites and using Jason-2 over one site along Godavari River. The results arevalidated well with the in-situ data.
+7
+Dataset Contact
+Dr. Rashmi Sharma OSD/AOSG/EPSA (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 6044. Email:
+rashmi@sac.isro.gov.in
+8
+Update frequency
+SARAL/AltiKa and ENVISAT are in 35 day and Jason-2 10 day repetition period
+9
+Access Rights or Restriction
+Open Access
+10
+Spatial Resolution
+NA
+11
+Language
+English
+12
+Topic Category
+Water height estimation and estimation of river discharge
+13
+Keywords
+River, Satellite altimeters, river height, range corrections, rating curve
+14
+Date or period
+ENVISAT (June 2002 to September 2010), Jason-2 ( July 2008 to December 2014) and SARAL/AltiKa (March 2013)
+15
+Responsible Party
+Dr. Rashmi Sharma OSD/AOSG/EPSA (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 6044. Email:
+rashmi@sac.isro.gov.in
+16
+Organization
+Space Applications Centre (ISRO), Ahmedabad, India
+16a
+Org. role
+Estimation of river discharge using Remote sensing techniques
+16b
+Vertical Extent (minimumValue, maximumValue, unitOfMeasure, vertical datum)
+Unit of measurement = meter for river height and m3/s for river discharge Datum: WGS84
+17
+Geographic Extent
+UL Coordinates: 19N, 80.5E
+UR Coordinates: 19N, 82.5E
+LL Coordinates: 16N, 80.5E
+LR Coordinates: 16N, 82.5E
+18
+Geographic Name, Geographic Identifier
+Godavari river
+19
+Bounding box
+UL Coordinates: 19N, 80.5E
+UR Coordinates: 19N, 82.5E
+LL Coordinates: 16N, 80.5E
+LR Coordinates: 16N, 82.5E
+20
+Temporal Extent
+Time series plot of water heights and river discharge over Godavari river since 2002.
+21
+Access Rights or Restrictions
+Open Access
+22
+Distribution Information
+Online download in .txt format
+23
+Processing Level
+Level 3 (Data product derived from altimeter GDR data)
+24
+Reference System
+Datum: WGS84
+Tags:
+Opendata
+Land
+Search
+Search
+Follow Us
+Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.
+Feedback
+About Us
+Contact Us
+Copyright Policy
+Data Access Policy
+Hyperlink Policy
+Privacy Policy
+Website Policies
+Terms & Conditions
+FAQs
+"Ver 3.0; Last reviewed and updated on
+01 Jul, 2025& Served By:
+Web-Srv-Pri

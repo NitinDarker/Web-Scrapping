@@ -1,0 +1,76 @@
+MOSDAC : A DECADE OF SERVICE TO THE NATION
+2006-2016
+MAJOR HIGHLIGHTS
+• A Storehouse for Space based Weather and Ocean
+Data
+• Near Real time Meteorological and Oceanographic
+data dissemination
+• Free data to scientific and academic community
+• Web and email alerts for extreme weather events
+• Freely available tools and utilities for data analysis
+Application of Space 
+Technology for the benefit of the common man
+Weather forecasting, cyclone prediction and 
+continuous weather and ocean data 
+availability
+MAJOR BENEFITS TO SOCIETY
+•Advanced alerts related to cyclone and 
+heavy rain events to civil 
+administrators and users
+•Heavy rain and cloud burst related 
+Nowcasting over Western Himalayan 
+region
+•Weather, heat / cold wave forecasting
+
+CYCLONE: Track and Intensity forecast over Indian Ocean
+INTENSE RAINFALL Half 
+hourly maps over India at 
+4 km resolution 
+WEATHER
+FORECAST
+for 24, 48 and 72 hours
+(Temperature,
+Pressure,
+Humidity,
+Rain,
+Winds,
+Clouds) over India at 5
+km resolution
+SEA STATE FORECAST (6
+hourly) for 5 days in terms of
+wave height, wind speed, sea
+surface temperature and swell
+height
+CLOUD BURST: Half hourly ALERTS
+Applications
+Cyclone Monitoring, Heavy Rain and Cloud Burst 
+Nowcasting, Heat Wave and Weather Prediction
+
+KALPANA-1 & INSAT-3A: Half hourly data of land, ocean and atmosphere,
+covering India and its neighborhood for weather and ocean state
+forecasting
+OPERATIONAL MISSIONS and PRODUCTS 
+SARAL: Observations for the study of sea level, climate and ocean circulation
+Significant Wave Height
+Sea Surface Height Anomaly
+Wind Speed
+MEGHA-TROPIQUES: Measurements for under -standing of tropical meso
+scale convective systems and hydrological cycle
+ROSA – Locations of Occultation
+SAPHIR– Atmospheric 
+humidity profile 
+SCARAB – Longwave 
+Flux 
+Land surface temp
+ND Vegetation 
+Index
+Outgoing long 
+Wave radiation
+Rainfall
+INSAT-3D SOUNDER: Profiles of Temperature, Humidity, Ozone,
+Surface Skin Temperature
+Sea Surface Temp
+INSAT-3D IMAGER: Provides an operational, environmental and
+storm warning system to protect life and property
+Operational Missions and Data Products
+AMV

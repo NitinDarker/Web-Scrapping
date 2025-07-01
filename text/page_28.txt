@@ -1,0 +1,232 @@
+### https://mosdac.gov.in/soil-moisture-0 ###
+
+Soil Moisture | Meteorological & Oceanographic Satellite Data Archival Centre
+Skip to main Content
+-
+A
+A
++
+A
+A
+A
+हिन्दी
+English
+Secondary menu
+SignUp
+Login
+Logout
+Meteorological & Oceanographic Satellite Data Archival Centre
+Space Applications Centre, ISRO
+Home
+Missions
+INSAT-3DR
+INSAT-3D
+KALPANA-1
+INSAT-3A
+MeghaTropiques
+SARAL-AltiKa
+OCEANSAT-2
+OCEANSAT-3
+INSAT-3DS
+SCATSAT-1
+Catalog
+Satellite
+Insitu (AWS)
+RADAR
+Galleries
+Satellite Products
+Weather Forecast
+Ocean Forecast
+RADAR (DWR)
+Global Ocean Current
+Data Access
+Order Data
+Open Data
+Atmosphere
+Bayesian based MT-SAPHIR rainfall
+GPS derived Integrated water vapour
+GSMap ISRO Rain
+METEOSAT8 Cloud Properties
+Land
+3D Volumetric TERLS DWRproduct
+Inland Water Height
+River Discharge
+Soil Moisture
+Ocean
+Global Ocean Surface Current
+High Resolution Sea Surface Salinity
+Indian Mainland Coastal Product
+Ocean Subsurface
+Oceanic Eddies Detection
+Sea Ice Occurrence Probability
+Wave based Renewable Energy
+Cal-Val
+Forecast
+RSS Feeds
+Reports
+Calibration
+Insitu
+Relative
+Validation
+Data Quality
+Weather
+Atlases
+Tools
+Sitemap
+Help
+You are here
+Home
+»
+Data Access
+»
+Open Data
+»
+Land
+» Soil Moisture
+Soil Moisture
+Data Access
+Click Here
+to access the Science Products . Request to use MOSDAC Single Sign On user credentials to download the data.
+Data Version
+Version 1.0 (beta)
+Data Sources
+SMAP L-band radiometer data
+Processing Steps
+Following are the three major processing steps :
+i. SMAP L1C daily data.
+ii. Import previous 3 days data
+iii. Generate global mosaic of Tb
+iv. Generate Indian mosaic of Tb
+v. Generate SWI from Tb and gridding the data
+Derivation Techniques and Algorithm
+Soil Wetness Index (SWI) is derived using a time series based methodology using SMAP L-band radiometer data, normalized to the extreme values of 0 and 1, corresponding to the dry and saturated soil wetness conditions respectively.
+File Naming Convention
+The Geotiff file names follows naming convention;
+Soil Wetness Index file:
+SWI_SMAP_I_YYYYMMD1_YYYYMMD2.tif
+SWI : Soil Wetness Index
+SMAP : Soil Moisture Active Passive
+I : India
+YYYY : Year
+MM : Month
+D1 : Start Date
+D2 : End Date
+Soil Moisture file :
+SWI_SMAP_I_YYYYMMD1_YYYYMMD2.tif
+SWI : Soil Moisture
+SMAP : Soil Moisture Active Passive
+I : India
+YYYY : Year
+MM : Month
+D1 : Start Date
+D2 : End Date
+MetaData
+Sr. No
+Core Metadata Elements
+Definition
+1
+Metadata language
+English
+2
+Metadata Contact
+MOSDAC
+3
+Metadata date
+April, 2015
+4
+Data Lineage or Quality
+Soil Wetness Map derived using SMAP L-band Radiometer data
+5
+Title
+Soil Wetness Index.
+6
+Abstract
+Soil Wetness Index (SWI) is derived using a time series based methodology using SMAP L-band radiometer data, normalized to the extreme values of 0 and 1, corresponding to the dry and saturated soil wetness conditions respectively.
+7
+Dataset Contact
+Dharmendra Kumar Pandey, Sasmita Chaurasia, EPSA, Space Applications Centre (ISRO), Ahmedabad-380015,
+dkp@sac.isro.gov.in
+,
+sasmita@sac.isro.gov.in
+8
+Update frequency
+3 day composite
+9
+Access Rights or Restriction
+Open Access
+10
+Spatial Resolution
+40 km (resampled at 0.125 degrees)
+11
+Language
+English
+12
+Topic Category
+Land
+13
+Keywords
+Soil Wetness Index, SMAP. SWI, Soil Moisture Active Passive
+14
+Date or period
+April 2015
+15
+Responsible Party
+Dharmendra Kumar Pandey,EPSA, Space Applications Centre (ISRO), Ahmedabad-380015, India
+16
+Organization
+Space Applications Centre (ISRO), Ahmedabad, India
+16a
+Org. role
+Geophysical parameters retrieval from satellite
+16b
+Individual name
+Dharmendra Kumar pandeyEPSA, SAC (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 4005. Email:
+dkp@sac.isro.gov.in
+16c
+Position
+Scientist/Engineer, EPSA, SAC (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 4005. Email:
+dkp@sac.isro.gov.in
+17
+Geographic Extent
+Indian Land mask
+18
+Geographic name, geographic Identifier
+Indian Region
+19
+Bounding box
+lat_min: 05N, lat_max: 24N, lon_min: 68E, lon_max: 90E
+20
+Temporal Extent
+April 2015 onwards
+21
+Access Rights or Restrictions
+Open Access
+22
+Distribution Information
+Online download in Geotiff format.
+23
+Processing Level
+Level 2
+24
+Reference System
+Datum: WGS84
+Tags:
+Opendata
+Land
+Search
+Search
+Follow Us
+Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.
+Feedback
+About Us
+Contact Us
+Copyright Policy
+Data Access Policy
+Hyperlink Policy
+Privacy Policy
+Website Policies
+Terms & Conditions
+FAQs
+"Ver 3.0; Last reviewed and updated on
+01 Jul, 2025& Served By:
+Web-Srv-Pri

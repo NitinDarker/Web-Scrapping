@@ -1,0 +1,3 @@
+Accumulated Rain and Inundation Probability for Cyclone Amphan
+using WRF and SAC-HYDRO forecast for 20-May-2020
+Disclaimer : The flood situation shown in this figure are based on experimental simulations.

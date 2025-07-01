@@ -1,0 +1,271 @@
+List of DOI’s for Products disseminated from MOSDAC 
+ 
+ 
+Sr. No. Landing Page Address 
+D.O.I. 
+1 
+http://mosdac.gov.in/catalog/doi/27 
+10.19038/SAC/10/3A-CCD-AOD 
+2 
+http://mosdac.gov.in/catalog/doi/13 
+10.19038/SAC/10/3A-CCD-COMPOSITE-NDV 
+3 
+http://mosdac.gov.in/catalog/doi/28 
+10.19038/SAC/10/3A-CCD-GPS 
+4 
+http://mosdac.gov.in/catalog/doi/10 
+10.19038/SAC/10/3A-CCD-L1 
+5 
+http://mosdac.gov.in/catalog/doi/11 
+10.19038/SAC/10/3A-CCD-L1-INDIAN SECTOR 
+6 
+http://mosdac.gov.in/catalog/doi/20 
+10.19038/SAC/10/3A-VHR-DAILYOLR 
+7 
+http://mosdac.gov.in/catalog/doi/21 
+10.19038/SAC/10/3A-VHR-DAILYQPE 
+8 
+http://mosdac.gov.in/catalog/doi/14 
+10.19038/SAC/10/3A-VHR-L1 
+9 
+http://mosdac.gov.in/catalog/doi/15 
+10.19038/SAC/10/3A-VHR-L1-INDIAN SECTOR 
+10 
+http://mosdac.gov.in/catalog/doi/16 
+10.19038/SAC/10/3A-VHR-OLR 
+11 
+http://mosdac.gov.in/catalog/doi/17 
+10.19038/SAC/10/3A-VHR-QPE 
+12 
+http://mosdac.gov.in/catalog/doi/19 
+10.19038/SAC/10/3A-VHR-SST 
+
+13 
+http://mosdac.gov.in/catalog/doi/18 
+10.19038/SAC/10/3A-VHR-UTH 
+14 
+http://mosdac.gov.in/catalog/doi/123 10.19038/SAC/10/3DIMG_L1C_ASIA_MER 
+15 
+http://mosdac.gov.in/catalog/doi/126 10.19038/SAC/10/3DIMG_L2B_CMK 
+16 
+http://mosdac.gov.in/catalog/doi/124 10.19038/SAC/10/3DIMG_L2B_FOG 
+17 
+http://mosdac.gov.in/catalog/doi/140 10.19038/SAC/10/3DIMG_L2B_HEM 
+18 
+http://mosdac.gov.in/catalog/doi/155 10.19038/SAC/10/3DIMG_L2B_IMC 
+19 
+http://mosdac.gov.in/catalog/doi/149 10.19038/SAC/10/3DIMG_L2B_LST 
+20 
+http://mosdac.gov.in/catalog/doi/122 10.19038/SAC/10/3DIMG_L2B_OLR 
+21 
+http://mosdac.gov.in/catalog/doi/119 10.19038/SAC/10/3DIMG_L2B_UTH 
+22 
+http://mosdac.gov.in/catalog/doi/154 10.19038/SAC/10/3DIMG_L2C_CMP 
+23 
+http://mosdac.gov.in/catalog/doi/139 10.19038/SAC/10/3DIMG_L2C_FOG 
+24 
+http://mosdac.gov.in/catalog/doi/150 10.19038/SAC/10/3DIMG_L2C_INS 
+25 
+http://mosdac.gov.in/catalog/doi/142 10.19038/SAC/10/3DIMG_L2C_SNW 
+26 
+http://mosdac.gov.in/catalog/doi/127 10.19038/SAC/10/3DIMG_L2G_AOD 
+27 
+http://mosdac.gov.in/catalog/doi/125 10.19038/SAC/10/3DIMG_L2G_GPI 
+28 
+http://mosdac.gov.in/catalog/doi/120 10.19038/SAC/10/3DIMG_L2G_IMR 
+29 
+http://mosdac.gov.in/catalog/doi/121 10.19038/SAC/10/3DIMG_L2G_SST 
+30 
+http://mosdac.gov.in/catalog/doi/143 10.19038/SAC/10/3DIMG_L2P_FIR 
+31 
+http://mosdac.gov.in/catalog/doi/128 10.19038/SAC/10/3DIMG_L2P_IRW 
+
+32 
+http://mosdac.gov.in/catalog/doi/132 10.19038/SAC/10/3DIMG_L2P_MRW 
+33 
+http://mosdac.gov.in/catalog/doi/144 10.19038/SAC/10/3DIMG_L2P_SMK 
+34 
+http://mosdac.gov.in/catalog/doi/131 10.19038/SAC/10/3DIMG_L2P_VSW 
+35 
+http://mosdac.gov.in/catalog/doi/129 10.19038/SAC/10/3DIMG_L2P_WVW 
+36 
+http://mosdac.gov.in/catalog/doi/151 10.19038/SAC/10/3DIMG_L3B_HEM_DLY 
+37 
+http://mosdac.gov.in/catalog/doi/145 10.19038/SAC/10/3DIMG_L3B_OLR_DLY 
+38 
+http://mosdac.gov.in/catalog/doi/148 10.19038/SAC/10/3DIMG_L3B_SST_DLY 
+39 
+http://mosdac.gov.in/catalog/doi/146 10.19038/SAC/10/3DIMG_L3B_UTH_DLY 
+40 
+http://mosdac.gov.in/catalog/doi/152 10.19038/SAC/10/3DIMG_L3G_GPI_DLY 
+41 
+http://mosdac.gov.in/catalog/doi/147 10.19038/SAC/10/3DIMG_L3G_IMR_DLY 
+42 
+http://mosdac.gov.in/catalog/doi/133 10.19038/SAC/10/3DSND_L1B_SA1 
+43 
+http://mosdac.gov.in/catalog/doi/134 10.19038/SAC/10/3DSND_L1B_SA2 
+44 
+http://mosdac.gov.in/catalog/doi/135 10.19038/SAC/10/3DSND_L1B_SB1 
+45 
+http://mosdac.gov.in/catalog/doi/118 10.19038/SAC/10/3DSND_L1B_STD 
+46 
+http://mosdac.gov.in/catalog/doi/130 10.19038/SAC/10/3DSND_L2B_PFL 
+47 
+http://mosdac.gov.in/catalog/doi/137 10.19038/SAC/10/3DSND_L2B_SA2 
+48 
+http://mosdac.gov.in/catalog/doi/138 10.19038/SAC/10/3DSND_L2B_SB1 
+49 
+http://mosdac.gov.in/catalog/doi/23 
+10.19038/SAC/10/K1-VHR-AMV 
+50 
+http://mosdac.gov.in/catalog/doi/105 10.19038/SAC/10/K1-VHR-AMV-VIS 
+
+51 
+http://mosdac.gov.in/catalog/doi/25 
+10.19038/SAC/10/K1-VHR-BRT 
+52 
+http://mosdac.gov.in/catalog/doi/22 
+10.19038/SAC/10/K1-VHR-BTW 
+53 
+http://mosdac.gov.in/catalog/doi/30 
+10.19038/SAC/10/K1-VHR-CMK 
+54 
+http://mosdac.gov.in/catalog/doi/7 
+10.19038/SAC/10/K1-VHR-CMV 
+55 
+http://mosdac.gov.in/catalog/doi/37 
+10.19038/SAC/10/K1-VHR-DAILYINS 
+56 
+http://mosdac.gov.in/catalog/doi/1 
+10.19038/SAC/10/K1-VHR-DAILYOLR 
+57 
+http://mosdac.gov.in/catalog/doi/24 
+10.19038/SAC/10/K1-VHR-DAILYQPE 
+58 
+http://mosdac.gov.in/catalog/doi/5 
+10.19038/SAC/10/K1-VHR-DAILYSST 
+59 
+http://mosdac.gov.in/catalog/doi/106 10.19038/SAC/10/K1-VHR-HEM 
+60 
+http://mosdac.gov.in/catalog/doi/32 
+10.19038/SAC/10/K1-VHR-IMR 
+61 
+http://mosdac.gov.in/catalog/doi/36 
+10.19038/SAC/10/K1-VHR-INS 
+62 
+http://mosdac.gov.in/catalog/doi/26 
+10.19038/SAC/10/K1-VHR-L1-INDIAN SECTOR 
+63 
+http://mosdac.gov.in/catalog/doi/35 
+10.19038/SAC/10/K1-VHR-LST 
+64 
+http://mosdac.gov.in/catalog/doi/2 
+10.19038/SAC/10/K1-VHR-OLR 
+65 
+http://mosdac.gov.in/catalog/doi/4 
+10.19038/SAC/10/K1-VHR-QPE 
+66 
+http://mosdac.gov.in/catalog/doi/31 
+10.19038/SAC/10/K1-VHR-SGP 
+67 
+http://mosdac.gov.in/catalog/doi/33 
+10.19038/SAC/10/K1-VHR-SGP-CMV 
+68 
+http://mosdac.gov.in/catalog/doi/34 
+10.19038/SAC/10/K1-VHR-SGP-WVWV 
+69 
+http://mosdac.gov.in/catalog/doi/6 
+10.19038/SAC/10/K1-VHR-SST 
+
+70 
+http://mosdac.gov.in/catalog/doi/3 
+10.19038/SAC/10/K1-VHR-UTH 
+71 
+http://mosdac.gov.in/catalog/doi/8 
+10.19038/SAC/10/K1-VHR-WVWV 
+72 
+http://mosdac.gov.in/catalog/doi/45 
+10.19038/SAC/10/MT1MADSGPL2A 
+73 
+http://mosdac.gov.in/catalog/doi/49 
+10.19038/SAC/10/MT1MADSL1A 
+74 
+http://mosdac.gov.in/catalog/doi/50 
+10.19038/SAC/10/MT1MADSL1A2 
+75 
+http://mosdac.gov.in/catalog/doi/51 
+10.19038/SAC/10/MT1MADSL1B 
+76 
+http://mosdac.gov.in/catalog/doi/56 
+10.19038/SAC/10/MT1MADSRRL2A 
+77 
+http://mosdac.gov.in/catalog/doi/52 
+10.19038/SAC/10/MT1SAPSL1A 
+78 
+http://mosdac.gov.in/catalog/doi/53 
+10.19038/SAC/10/MT1SAPSL1A2 
+79 
+http://mosdac.gov.in/catalog/doi/54 
+10.19038/SAC/10/MT1SAPSL1A3 
+80 
+http://mosdac.gov.in/catalog/doi/55 
+10.19038/SAC/10/MT1SAPSL1B 
+81 
+http://mosdac.gov.in/catalog/doi/153 10.19038/SAC/10/MT1SAPSRRL2A 
+82 
+http://mosdac.gov.in/catalog/doi/41 
+10.19038/SAC/10/MT1SCASL1A 
+83 
+http://mosdac.gov.in/catalog/doi/42 
+10.19038/SAC/10/MT1SCASL1A2 
+84 
+http://mosdac.gov.in/catalog/doi/43 
+10.19038/SAC/10/MT1SCASL1A3 
+85 
+http://mosdac.gov.in/catalog/doi/44 
+10.19038/SAC/10/MT1SCASL1B 
+86 
+http://mosdac.gov.in/catalog/doi/60 
+10.19038/SAC/10/atm_prf_igr_1d 
+87 
+http://mosdac.gov.in/catalog/doi/62 
+10.19038/SAC/10/atm_prf_igr_l2 
+88 
+http://mosdac.gov.in/catalog/doi/63 
+10.19038/SAC/10/atm_prf_igs_1d 
+
+89 
+http://mosdac.gov.in/catalog/doi/65 
+10.19038/SAC/10/atm_prf_igs_l2 
+90 
+http://mosdac.gov.in/catalog/doi/57 
+10.19038/SAC/10/atm_prf_igu_1d 
+91 
+http://mosdac.gov.in/catalog/doi/59 
+10.19038/SAC/10/atm_prf_igu_l2 
+92 
+http://mosdac.gov.in/catalog/doi/39 
+10.19038/SAC/10/O2-SCT-AWV50 
+93 
+http://mosdac.gov.in/catalog/doi/40 
+10.19038/SAC/10/O2-SCT-DAILYAWV50 
+94 
+http://mosdac.gov.in/catalog/doi/38 
+10.19038/SAC/10/O2-SCT-HWV 
+95 
+http://mosdac.gov.in/catalog/doi/109 10.19038/SAC/10/SRLGPN 
+96 
+http://mosdac.gov.in/catalog/doi/110 10.19038/SAC/10/SRLGPR 
+97 
+http://mosdac.gov.in/catalog/doi/111 10.19038/SAC/10/SRLGPS 
+98 
+http://mosdac.gov.in/catalog/doi/112 10.19038/SAC/10/SRLIPN 
+99 
+http://mosdac.gov.in/catalog/doi/113 10.19038/SAC/10/SRLIPR 
+100 
+http://mosdac.gov.in/catalog/doi/114 10.19038/SAC/10/SRLIPS 
+101 
+http://mosdac.gov.in/catalog/doi/108 10.19038/SAC/10/SRLOPN 
+102 
+http://mosdac.gov.in/catalog/doi/107 10.19038/SAC/10/SRLOPR 
+ 

@@ -1,0 +1,242 @@
+### https://mosdac.gov.in/ocean-subsurface ###
+
+Ocean Subsurface | Meteorological & Oceanographic Satellite Data Archival Centre
+Skip to main Content
+-
+A
+A
++
+A
+A
+A
+हिन्दी
+English
+Secondary menu
+SignUp
+Login
+Logout
+Meteorological & Oceanographic Satellite Data Archival Centre
+Space Applications Centre, ISRO
+Home
+Missions
+INSAT-3DR
+INSAT-3D
+KALPANA-1
+INSAT-3A
+MeghaTropiques
+SARAL-AltiKa
+OCEANSAT-2
+OCEANSAT-3
+INSAT-3DS
+SCATSAT-1
+Catalog
+Satellite
+Insitu (AWS)
+RADAR
+Galleries
+Satellite Products
+Weather Forecast
+Ocean Forecast
+RADAR (DWR)
+Global Ocean Current
+Data Access
+Order Data
+Open Data
+Atmosphere
+Bayesian based MT-SAPHIR rainfall
+GPS derived Integrated water vapour
+GSMap ISRO Rain
+METEOSAT8 Cloud Properties
+Land
+3D Volumetric TERLS DWRproduct
+Inland Water Height
+River Discharge
+Soil Moisture
+Ocean
+Global Ocean Surface Current
+High Resolution Sea Surface Salinity
+Indian Mainland Coastal Product
+Ocean Subsurface
+Oceanic Eddies Detection
+Sea Ice Occurrence Probability
+Wave based Renewable Energy
+Cal-Val
+Forecast
+RSS Feeds
+Reports
+Calibration
+Insitu
+Relative
+Validation
+Data Quality
+Weather
+Atlases
+Tools
+Sitemap
+Help
+You are here
+Home
+»
+Data Access
+»
+Open Data
+»
+Ocean
+» Ocean Subsurface
+Ocean Subsurface
+Satellite data has been used to reconstruct ocean interior density and velocity anomalies in the Bay of Bengal through the “interior + surface Quasigeostrophic” (isQG) method. The inputs are sea surface height anomaly (AVISO), sea surface density anomaly; which is calculated using GHRSST sea surface temperature and SMAP sea surface salinity. One more input is the Brunt-Vaisala frequency, calculated from in-situ analysis system (ISAS) climatological data. The results show that isQG retrieved subsurface density anomalies are very promising compared to RAMA buoy data in the cold season when EKE is minimum. Validation of retrieved density has also been performed using ARGO data which reveals that isQG is more promising when the stratification is weak .
+Data Access
+Click Here
+to access the Science Products . Request to use MOSDAC Single Sign On user credentials to download the data.
+Data Version
+Version 1.0 (beta)
+Data Sources
+Reynold's Optimum Interpolated Sea Surface Temperature (OISST) (
+https://www.ncdc.noaa.gov/oisst
+)
+SMAP sea surface salinity (SSS) (
+https://smap.jpl.nasa.gov/data/
+).
+AVISO sea surface height (SSH) (
+https://www.aviso.altimetry.fr/en/data.html
+).
+ISAS-13 temperature/salinity profile (
+https://annuaire.ifremer.fr/cv/16058
+).
+Processing Steps
+Climatological temperature, salinity (T/S) fields are calculated from ISAS-13 data. Also Brunt-Viasala frequency(N) is calculated.
+Monthly Sea surface density anomaly(SSDA) is calculated from GHRSST, SMAP and ISAS-Climatology.
+Monthly sea surface height anomaly(SSHA) is calculated using AVISO data.
+Using interior + surface Quasi-Geostrophic(isQG) methodology, taking Barotropic and first Baroclinic modes, and taking SSHA and SSDA as boundary conditions, ocean interior density and velocity anomaly are reconstructed.
+References
+Liu, L., S. Peng, and R. X. Huang (2017), Reconstruction of ocean’s interior from observed sea surface information, J. Geophys. Res. Oceans, 122, 1042– 1056, doi:10.1002/2016JC011927.
+Wang, J., G. Flierl, J. LaCasce, J. McClean, and A. Mahadevan (2013), Reconstructing the ocean’s interior from surface data, J. Phys. Oceanogr., 43, 1611–1626, doi:10.1175/JPO-D-12-0204.1.
+Scott, R. B., and D. G. Furnival, 2012: Assessment of traditional and new eigen-function bases applied to extrapolation of surface geostrophic current time series to below the surface in an idealized primitive equation simulation. J. Phys. Oceanogr., 42, 165–178.
+Smith, K. S., and G. K. Vallis, 2001: The scales and equilibration of mid-ocean eddies: Freely evolving ﬂow. J. Phys. Oceanogr., 31, 554–571.
+Pedlosky, J., 1987: Geophysical Fluid Dynamics. 2nd ed. Springer Verlag, 710 pp.
+Lapeyre, G., 2009: What vertical mode does the altimeter reﬂect? On the decomposition in baroclinic modes and on a surface trapped mode. J. Phys. Oceanogr., 39, 2857–2874.
+P. Klein, 2006: Dynamics of the upper oceanic layers in terms of surface quasi-geostrophy theory. J. Phys. Oceanogr., 36, 165–176.
+Derivation Techniques and Algorithm
+The algorithm is called interior + surface Quasi-Geostrophic(isQG) method. User should refer doi:10.1175/JPO-D-12-0204.1.
+Limitations
+This method is only applicable in a region where the Coriolis parameter does not change abruptly. Also it is not applicable on the equator.
+Vertical movement is ignored in isQG framework.
+isQG method works well when the eddy kinetic energy (EKE) is low. If EKE is large, it will fail to generate accurate subsurface fields.
+We considered the Barotropic and the first Baroclinic modes only in our analysis. This certainly limits our approach.
+This method generates less satisfactory subsurface fields if the stratification is strong.
+The vertical resolution in our case is 10 m. This is a major drawback since in Bay of Bengal, the mixed layer can be as shallow as 15-20 m.
+Known problems with data
+Data problems due to bad weather (heavy rain) and extreme events like cyclones etc.
+File Naming Conventio
+n
+Netcdf file: isQG_yyyy.nc
+MetaData
+Sr. No
+Core Metadata Elements
+Definition
+1
+Metadata language
+English
+2
+Metadata Contact
+MOSDAC
+3
+Metadata date
+May, 2018
+4
+Data Lineage or Quality
+Sea surface height anomaly, Sea surface density anomaly in Bay of Bengal using isQG methodology.
+5
+Title
+Reconstruction of Ocean interior density and horizontal velocity anomaly ﬁelds using Satellite data in Bay of Bengal
+6
+Abstract
+Satellite data has been used to reconstruct ocean interior density and velocity anomalies in the Bay of Bengal through the “interior + surface Quasigeostrophic” (isQG) method. The inputs are sea surface height anomaly (AVISO), sea surface density anomaly; which is calculated using GHRSST sea surface temperature and SMAP sea surface salinity. One more input is the Brunt-Vaisala frequency, calculated from in-situ analysis system (ISAS) climatological data. The results show that isQG retrieved subsurface density anomalies are very promising compared to RAMA buoy data in the cold season when EKE is minimum. Validation of retrieved density has also been performed using ARGO data which reveals that isQG is more promising when the stratification is weak .
+7
+Dataset Contact
+Anup Kumar Mandal, OSD/AOSG/EPSA, Space Applications Centre (ISRO), Ahmedabad, 380015,
+anupmandal@sac.isro.gov.in
+8
+Update Frequency
+Six months.
+9
+Access Rights or Restriction
+Open Access
+10
+Spatial Resolution
+Spatial resolution is 25 km, while vertical resolution is 10m
+11
+Language
+English
+12
+Topic Category
+Ocean subsurface product (SAMUDRA Project) using satellite data.
+13
+Keywords
+Density anomaly, Velocity anomaly, subsurface fields, 3D-Ocean fields
+14
+Date or period
+January 2017 - till date
+15
+Responsible Party
+Anup Kumar Mandal,OSD/AOGG/ EPSA, Space Applications Centre (ISRO), Ahmedabad-380015, India
+16
+Organization
+Space Applications Centre (ISRO), Ahmedabad, India
+16a
+Org. role
+Geophysical parameters from satellite data in the Bay of Bengal region.
+16b
+Individual name
+Anup Kumar Mandal, OSD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 6117. Email:
+anupmandal@sac.isro.gov.in
+16c
+Position
+Scientist/Engineer, OSD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015
+16d
+Vertical Extent (minimumValue, maximumValue, unitOfMeasure, vertical datum)
+Lat_min : 05N Lat_max : 25 N Lon_min: 75E Lon_max: 95 E
+17
+Geographic Extent
+Indian Landmass
+18
+Geographic name, geographic Identifier
+Bay of Bengal
+19
+Bounding box
+Lat_min : 05N Lat_max : 25 N Lon_min: 75E Lon_max: 95 E
+20
+Temporal Extent
+January 2017 till date
+21
+Access Rights or Restrictions
+Open Access
+22
+Distribution Information
+Online download of data files in netCDF format
+23
+Processing Level
+Level 4
+4
+Reference System
+Datum: WGS84
+Tags:
+Opendata
+Ocean
+Search
+Search
+Follow Us
+Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.
+Feedback
+About Us
+Contact Us
+Copyright Policy
+Data Access Policy
+Hyperlink Policy
+Privacy Policy
+Website Policies
+Terms & Conditions
+FAQs
+"Ver 3.0; Last reviewed and updated on
+01 Jul, 2025& Served By:
+Web-Srv-Pri

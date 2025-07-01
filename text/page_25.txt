@@ -1,0 +1,238 @@
+### https://mosdac.gov.in/3d-volumetric-terls-dwrproduct ###
+
+3D Volumetric TERLS DWRproduct | Meteorological & Oceanographic Satellite Data Archival Centre
+Skip to main Content
+-
+A
+A
++
+A
+A
+A
+हिन्दी
+English
+Secondary menu
+SignUp
+Login
+Logout
+Meteorological & Oceanographic Satellite Data Archival Centre
+Space Applications Centre, ISRO
+Home
+Missions
+INSAT-3DR
+INSAT-3D
+KALPANA-1
+INSAT-3A
+MeghaTropiques
+SARAL-AltiKa
+OCEANSAT-2
+OCEANSAT-3
+INSAT-3DS
+SCATSAT-1
+Catalog
+Satellite
+Insitu (AWS)
+RADAR
+Galleries
+Satellite Products
+Weather Forecast
+Ocean Forecast
+RADAR (DWR)
+Global Ocean Current
+Data Access
+Order Data
+Open Data
+Atmosphere
+Bayesian based MT-SAPHIR rainfall
+GPS derived Integrated water vapour
+GSMap ISRO Rain
+METEOSAT8 Cloud Properties
+Land
+3D Volumetric TERLS DWRproduct
+Inland Water Height
+River Discharge
+Soil Moisture
+Ocean
+Global Ocean Surface Current
+High Resolution Sea Surface Salinity
+Indian Mainland Coastal Product
+Ocean Subsurface
+Oceanic Eddies Detection
+Sea Ice Occurrence Probability
+Wave based Renewable Energy
+Cal-Val
+Forecast
+RSS Feeds
+Reports
+Calibration
+Insitu
+Relative
+Validation
+Data Quality
+Weather
+Atlases
+Tools
+Sitemap
+Help
+You are here
+Home
+»
+Data Access
+»
+Open Data
+»
+Land
+» 3D Volumetric TERLS DWRproduct
+3D Volumetric TERLS DWRproduct
+These products contain the 3D volumetric gridded de-cluttered radar reflectivity and de-aliased
+radial velocity generated from the C-Band Thumba Equatorial Rocket Launching Station
+(TERLS) DWR Volumetric PPI Scan data. The data grid has dimensions of (81x481x481) with a
+horizontal resolution of (1 km x 1 km) and vertical resolution of (250 m). The maximum altitude
+considered in while gridding is 20.0 km. This product can be used for various hydrological and
+numerical weather prediction applications.
+Data Access
+Click Here
+to access the Science Products . Request to use MOSDAC Single Sign On user credentials to download the data.
+Data Version
+Version 1.0 (beta)
+Data Sources
+TERLS C-Band Doppler Weather Radar (dprf mode)
+Processing Steps
+Following are the three major processing steps :
+- The radar reflectivity data is corrected for clutter using a combination of spatial continuity filter and fuzzy-logic based echo classification algorithm.
+-  The radial velocity data is dealiased using a 2D multipass velocity dealiasing scheme based spatial continuity of velocity fields
+-  The corrected reflectivity and radial velocity from all elevations is then gridded into a 3D volumetric grid having resolution of
+250
+x 1 km x 1 km.
+Derivation Techniques and Algorithm
+Decluttering of Radar reflectivity and Dealiasing of radial velocity; 3D volumetric gridding of radar variables as explained in detail in the above mentioned reports.
+Reference
+(1) Sambit Kumar Panda, Bipasha Paul Shukla, and Prashant Kumar, Clutter Mitigation
+and 3D volumetric gridding of TERLS DWR Reflectivity Data (V1.0), SAC Report,
+SAC/EPSA/AOSG/SR/19/2018
+(2) Sambit Kumar Panda, Prashant Kumar and Bipasha Paul Shukla, 2D-Multipass velocity
+dealiasing of TERLS DWR Data for cyclone Okchi (V1.0), SAC Report,
+SAC/EPSA/AOSG/SR/09/2018
+(3) Bipasha Paul Shukla, Prashant Kumar Saxena and Sambit Kumar Panda, Study of
+Tropical cyclone Okchi using TERLS DWR, SAC Report, SAC/EPSA/TDP/SR/09/2018
+(4) Gianfranco Vulpiani, and Coauthors, 2012: On the use of dual-polarized c-band radar for
+operational rainfall retrieval in mountainous areas. J. Appl. Meteor., 51(2):405–425.
+(5) Marco Gabella and Riccardo Notarpietro, 2002: Ground clutter characterization and
+elimination in mountainous terrain. In Use of radar observations in hydrological and
+NWP models, Katlenburg-Lindau, Copernicus, 305–311. URL:
+http://porto.polito.it/1411995/
+.
+(6) Zhang et al. 2006, An Automated 2D Multipass Doppler Radar Velocity Dealiasing
+Scheme, J. of Atmos. and Ocean Tech, 23, 1239-1248, 2006
+File Naming Convention
+Netcdf file:
+yyyy_mm_dd_hh_mm_ss_dprf_corrected.nc
+PNG file:
+yyyy_mm_dd_hh_mm_ss_voldbz_preview.png yyyy_mm_dd_hh_mm_ss_volvel_preview.png
+MetaData
+Sr. No
+Core Metadata Elements
+Definition
+1
+Metadata language
+English
+2
+Metadata Contact
+MOSDAC
+3
+Metadata date
+May, 2018
+4
+Data Lineage or Quality
+3D volumetric gridded radar reflectivity and radial velocity from TERLS DWR
+5
+Title
+Post processing of TERLS DWR data and Volumetric Gridding
+6
+Abstract
+The TERLS DWR data has been processed to correct for clutter and velocity folding prior to their application in hydrological and numerical weather prediction models. The radar reflectivity has been corrected for clutter using a combination of a spatial continuity filter and a fuzzy-logic based echo classification algorithm. The velocity folded regions are dealiased using a 2D multipass velocity dealiasing algorithm. The corrected reflectivity and radial velocity are then gridded into 1 km x 1 km x 250 m 3D volumetric grid which can be used by scientists for further meteorological applications. This data was prepared under the TDP/R&D project “Storm Tracking and Prediction using Doppler Weather Radar
+7
+Dataset Contact
+Sambit Kumar Panda, EPSA, Space Applications Centre (ISRO), Ahmedabad-380015
+8
+Update frequency
+3 months
+9
+Access Rights or Restriction
+Open Access
+10
+Spatial Resolution
+Spatial resolution is 1 km, while vertical resolution is 250 m.
+11
+Language
+English
+12
+Topic Category
+Doppler Weather Radar Data application
+13
+Keywords
+Doppler Weather Radar, Reflectivity, Radial Velocity, Decluttering, Dealiasing
+14
+Date or period
+May 1-31, 2018.
+15
+Responsible Party
+Sambit Kumar Panda, Bipasha Paul Shukla, ASD/AOSG/ EPSA, Space Applications Centre (ISRO), Ahmedabad-380015, India
+16
+Organization
+Space Applications Centre (ISRO), Ahmedabad, India
+16a
+Org. role
+Post processing of Doppler Weather Radar data and its application for Hydrological and Numerical Weather Prediction Models
+16b
+Individual name
+Sambit Kumar Panda, ASD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 6117/6104. Email:
+sambit@sac.isro.gov.in
+16c
+Position
+Scientist/Engineer-SC, ASD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015, India. Ph: +91 792691 6117/6104. Email:
+sambit@sac.isro.gov.in
+17
+Geographic Extent
+lat_min: 06N lat_max: 11N lon_min: 74E lon_max: 79E
+18
+Geographic name, geographic Identifier
+TERLS, Trivandrum.
+19
+Bounding box
+lat_min: 06N lat_max: 11N lon_min: 74E lon_max: 79E
+20
+Temporal Extent
+May1-31, 2018.
+21
+Access Rights or Restrictions
+Open Access
+22
+Distribution Information
+Online download in netcdf format and png files of daily archived data (“.tar.gz” compressed files).
+23
+Processing Level
+Level 2
+24
+Reference System
+Datum: WGS84
+Tags:
+Opendata
+Land
+Search
+Search
+Follow Us
+Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.
+Feedback
+About Us
+Contact Us
+Copyright Policy
+Data Access Policy
+Hyperlink Policy
+Privacy Policy
+Website Policies
+Terms & Conditions
+FAQs
+"Ver 3.0; Last reviewed and updated on
+01 Jul, 2025& Served By:
+Web-Srv-Pri

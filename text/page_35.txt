@@ -1,0 +1,213 @@
+### https://mosdac.gov.in/wave-based-renewable-energy ###
+
+Wave based Renewable Energy | Meteorological & Oceanographic Satellite Data Archival Centre
+Skip to main Content
+-
+A
+A
++
+A
+A
+A
+हिन्दी
+English
+Secondary menu
+SignUp
+Login
+Logout
+Meteorological & Oceanographic Satellite Data Archival Centre
+Space Applications Centre, ISRO
+Home
+Missions
+INSAT-3DR
+INSAT-3D
+KALPANA-1
+INSAT-3A
+MeghaTropiques
+SARAL-AltiKa
+OCEANSAT-2
+OCEANSAT-3
+INSAT-3DS
+SCATSAT-1
+Catalog
+Satellite
+Insitu (AWS)
+RADAR
+Galleries
+Satellite Products
+Weather Forecast
+Ocean Forecast
+RADAR (DWR)
+Global Ocean Current
+Data Access
+Order Data
+Open Data
+Atmosphere
+Bayesian based MT-SAPHIR rainfall
+GPS derived Integrated water vapour
+GSMap ISRO Rain
+METEOSAT8 Cloud Properties
+Land
+3D Volumetric TERLS DWRproduct
+Inland Water Height
+River Discharge
+Soil Moisture
+Ocean
+Global Ocean Surface Current
+High Resolution Sea Surface Salinity
+Indian Mainland Coastal Product
+Ocean Subsurface
+Oceanic Eddies Detection
+Sea Ice Occurrence Probability
+Wave based Renewable Energy
+Cal-Val
+Forecast
+RSS Feeds
+Reports
+Calibration
+Insitu
+Relative
+Validation
+Data Quality
+Weather
+Atlases
+Tools
+Sitemap
+Help
+You are here
+Home
+»
+Data Access
+»
+Open Data
+»
+Ocean
+» Wave based Renewable Energy
+Wave based Renewable Energy
+AWARE demonstrates potential renewable energy resource available from ocean waves over Indian Ocean region. The product is based on observations of the recent altimeters Jason-2 (2008-2014) and SARAL/Altika (2013-2014). It is particularly helpful in identification of ocean hotspots for extraction of ocean wave energy, that can be the next generation, environment friendly energy resource.It provides two types of products: Inter-annual monthly product from Jason-2 and SARAL/ALTIKA, Monthly climatology of ocean wave energy.
+Data Access
+Click Here
+to access the Science Products . Request to use MOSDAC Single Sign On user credentials to download the data.
+Data Version
+Version 1.0 (beta)
+Data Sources
+The significant wave height (SWH) and wind speed for both the altimeters are taken from
+Jason-2 (
+http://www.aviso.oceanobs.com
+)
+SARAL/ALTIKA (
+http://www.mosdac.gov.in
+)
+Processing Steps
+Using Significant Wave Height (SWH) and wind speed, the wave period is derived based on the data adaptive technique of " Genetic Algorithm " (Remya et al. 2011)
+Wave period hence derived is validated using buoy observations from Indian National Center for Ocean Information Services (INCOIS)
+Wave power is derived based on SWH and estimated wave period
+References
+R. Govindan, R. Kumar, S. Basu and A. Sarkar. " Altimeter-Derived Ocean Wave Period Using Genetic Algorithm, " IEEE Geosci. Remote Sens. Lett.,VOL 8.NO. 2,pp. 354 - 358, March 2011
+A. Alvarez, A.Orfila , J.Tintore, " DARWIN: An evolutionary program for nonlinear modeling of chaotic time series, " Computer Physics Communications 136, pp.334- 349 2001
+A. Soni, " Application of SARAL/AltiKa in extraction of wave power over Indian Ocean Region, " M. Tech Dissertation, Department of Computer Sciences, Ganpat University, Gujarat, March 2015
+Derivation Techniques and Algorithm
+The wave power (P) is mathematically derived as
+Where
+P is Wave power per unit of wave-crest length (in Kilowatt/m)
+R represents the satellite range
+H
+m0
+is the significant wave height (in meters)
+T is wave period (in seconds)
+ρ is the density of water (in kilogram/cubic meter)
+g is the acceleration due to gravity (in meters/square seconds)
+Limitations
+The products have gaps as they are based purely on track altimeters data.
+Known problems with data
+Data problems due to bad weather (heavy rain)
+File Naming Convention
+For inter-annual monthly product from Jason-2 and SARAL/ALTIKA
+Parametername_Altimetername_month_year
+Example:
+WE_SARL_JUL_2009 represents the wave energy from SARAL/Altika during July 2009.
+For Monthly climatology of ocean wave energy
+Parametername_CLIM_month_start year-end year
+Example:
+WE_CLIM_JUL_2008-2014 represents the wave energy climatology during July 2008-2014.
+MetaData
+Sr. No
+Core Metadata Elements
+Definition
+1
+Metadata language
+English
+2
+Metadata Contact
+MOSDAC
+3
+Metadata date
+August 3rd ,2015
+4
+Data Lineage
+Wave power in Kilowatt/meter from Altimeters over Indian Ocean Region
+5
+Title
+Altimeters for Wave based Renewable Energy (AWARE)
+6
+Abstract
+The wave power is computed from the altimeters (Jason-2 and SARAL/AltiKa) for a period of 2008-2014 at a monthly basis for individual years. Climatology is also prepared in this regard for the Indian Ocean Region.
+7
+Dataset Contact
+Dr Suchandra A. Bhowmick,Space Applications Centre, ISRO, Ahmedabad-380058,INDIA
+Email:
+suchandra@sac.isro.gov.in
+n
+8
+Update frequency
+Yearly Once
+9
+Access Rights or Restriction
+Open Access
+10
+Spatial Resolution
+NA
+11
+Language
+English
+12
+Topic Category
+Water power estimates
+13
+Keywords
+Wave power, non-conventional energy, wave period and Significant Wave Height
+14
+Data period
+2008-2014
+15
+Responsible Party
+Dr. Suchandra A. Bhowmick,Space Applications Centre, ISRO, Ahmedabad-380058,INDIA
+16
+Organization
+Space Applications Centre (ISRO), Ahmedabad, India
+16a
+Org. role
+Estimation of non-conventional wave energy using active microwave remote sensing instruments
+16b
+Unit
+Kilowatt/meter
+Tags:
+Opendata
+Ocean
+Search
+Search
+Follow Us
+Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.
+Feedback
+About Us
+Contact Us
+Copyright Policy
+Data Access Policy
+Hyperlink Policy
+Privacy Policy
+Website Policies
+Terms & Conditions
+FAQs
+"Ver 3.0; Last reviewed and updated on
+01 Jul, 2025& Served By:
+Web-Srv-Pri

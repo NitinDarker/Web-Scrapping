@@ -1,0 +1,30 @@
+0,1,2
+Sr. No,Core Metadata Elements,Definition
+1,Metadata language,English
+2,Metadata Contact,MOSDAC
+3,Metadata date,"April, 2015"
+4,Data Lineage or Quality,High resolution sea surface salinity in Bay of Bengal using Lagrangian technique.
+5,Title,Dynamic downscaling of Satellite Sea Surface Salinity for the Bay of Bengal
+6,Abstract,"Lagrangian technique is used for generating high-resolution sea surface salinity fields in the Bay of Bengal. This is achieved through the utilization of Sea Surface Salinity (SSS) data derived from the Soil Moisture Active Passive (SMAP) satellite, in conjunction with sea surface currents obtained from altimetry. By employing forward and backward schemes for the numerical advection of SMAP SSS fields using altimeter-derived geostrophic currents, a Lagrangian reconstruction is produced, capturing smaller-scale features. The reliability of our in-house developed algorithm is assessed by comparing it with an available reconstructed product in the Gulf Stream. Additionally, a preliminary validation is conducted against insitu data obtained from a thermo-salinograph. Further, the developed algorithm was modified to select the advection time dynamically."
+7,Dataset Contact,"Jai Kumar, POD/AOSG/EPSA, Space Applications Centre (ISRO), Ahmedabad, 380015, kumarj@sac.isro.gov.in"
+8,Update Frequency,Six months.
+9,Access Rights or Restriction,Open Access
+10,Spatial Resolution,Spatial resolution is 10 km
+11,Language,English
+12,Topic Category,High resolution sea surface salinity product (SAC-TDP) using satellite data.
+13,Keywords,"Sea surface salinity, sea surface currents, Lagrangian advection technique, high resolution"
+14,Date or period,April 2015 - June 2023
+15,Responsible Party,"Jai Kumar, POD/AOGG/ EPSA, Space Applications Centre (ISRO), Ahmedabad-380015, India"
+16,Organization,"Space Applications Centre (ISRO), Ahmedabad, India"
+16a,Org. role,Geophysical parameters from satellite data in the Bay of Bengal region.
+16b,Individual name,"Jai Kumar, POD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 6104. Email: kumarj@sac.isro.gov.in"
+16c,Position,"Scientist/Engineer, POD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015"
+16d,"Vertical Extent (minimumValue, maximumValue, unitOfMeasure, vertical datum)","Lat_min : 0N, Lat_max : 25N, Lon_min: 78E, Lon_max: 100 E"
+17,Geographic Extent,Indian Landmass
+18,"Geographic name, geographic Identifier",Bay of Bengal
+19,Bounding box,"Lat_min : 0N, Lat_max : 25 N, Lon_min: 78E, Lon_max: 100 E"
+20,Temporal Extent,April 2015-June 2023
+21,Access Rights or Restrictions,Open Access
+22,Distribution Information,Online download of data files in netCDF format
+23,Processing Level,Level 4
+4,Reference System,Datum: WGS84

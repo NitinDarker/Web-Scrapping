@@ -1,0 +1,143 @@
+### https://mosdac.gov.in/atlases?language=en ###
+
+Atlases | Meteorological & Oceanographic Satellite Data Archival Centre
+Skip to main Content
+-
+A
+A
++
+A
+A
+A
+हिन्दी
+English
+Secondary menu
+SignUp
+Login
+Logout
+Meteorological & Oceanographic Satellite Data Archival Centre
+Space Applications Centre, ISRO
+Home
+Missions
+INSAT-3DR
+INSAT-3D
+KALPANA-1
+INSAT-3A
+MeghaTropiques
+SARAL-AltiKa
+OCEANSAT-2
+OCEANSAT-3
+INSAT-3DS
+SCATSAT-1
+Catalog
+Satellite
+Insitu (AWS)
+RADAR
+Galleries
+Satellite Products
+Weather Forecast
+Ocean Forecast
+RADAR (DWR)
+Global Ocean Current
+Data Access
+Order Data
+Open Data
+Atmosphere
+Bayesian based MT-SAPHIR rainfall
+GPS derived Integrated water vapour
+GSMap ISRO Rain
+METEOSAT8 Cloud Properties
+Land
+3D Volumetric TERLS DWRproduct
+Inland Water Height
+River Discharge
+Soil Moisture
+Ocean
+Global Ocean Surface Current
+High Resolution Sea Surface Salinity
+Indian Mainland Coastal Product
+Ocean Subsurface
+Oceanic Eddies Detection
+Sea Ice Occurrence Probability
+Wave based Renewable Energy
+Cal-Val
+Forecast
+RSS Feeds
+Reports
+Calibration
+Insitu
+Relative
+Validation
+Data Quality
+Weather
+Atlases
+Tools
+Sitemap
+Help
+You are here
+Home
+» Atlas
+Atlases
+Download PDF
+Display name
+size
+modified
+viewing_ocean_from_space.pdf
+10.01 MB
+Mon, 2020-01-27 10:00
+Spectrum_of_India_AVIRIS-NG.pdf
+27.64 MB
+Thu, 2016-12-22 10:00
+Glimspes_of_India_by_RISAT-1.pdf
+88.53 MB
+Mon, 2015-08-31 10:00
+Eyes_on_Waves_from_Space.pdf
+6.24 MB
+Thu, 2018-05-03 10:00
+Exploring_the_Antarctic.pdf
+35.11 MB
+Wed, 2020-02-19 10:00
+Images_of_Moon_From_Chandrayan-1.pdf
+388.48 MB
+Thu, 2010-12-23 10:00
+Chandrayan-1_Lunar_Science_Atlas.pdf
+69.87 MB
+Thu, 2015-04-30 10:00
+Coral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf
+72.11 MB
+Thu, 2018-05-03 10:00
+Atlas_of_Sea_Ice_Trends.pdf
+2.83 MB
+Thu, 2012-03-01 10:00
+Mars-atlas.pdf
+35.13 MB
+Mon, 2015-08-31 10:00
+10 files - 735.95 MB
+Read Online
+Exploring the Antarctic
+Ocean from Space
+Wave Atlas
+Coral reef Atlas
+Utilization AVIRIS-NG
+Glimpse of India by RISAT-1
+Mars  Atlas
+Lunar Science Atlas
+Sea Ice Trends
+Images of Moon
+Search
+Search
+Follow Us
+Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.
+Feedback
+About Us
+Contact Us
+Copyright Policy
+Data Access Policy
+Hyperlink Policy
+Privacy Policy
+Website Policies
+Terms & Conditions
+FAQs
+"Ver 3.0; Last reviewed and updated on
+01 Jul, 2025& Served By:
+Web-Srv-Pri

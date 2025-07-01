@@ -1,0 +1,2 @@
+Sr.No,Station Name,State,Station ID,Station Key,Latitude,Longitude,Start Date,End Date,Processing Status,Temporal Resolution,Unnamed: 11
+{{$index + 1}},{{allproduct.name}},{{allproduct.state}},{{allproduct.id}},{{allproduct.key}},{{allproduct.latres}},{{allproduct.longres}},{{allproduct.startdate}},{{allproduct.enddate}},{{allproduct.actv}},{{allproduct.actv}},{{allproduct.frequency}}

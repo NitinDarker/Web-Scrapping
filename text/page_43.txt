@@ -1,0 +1,140 @@
+### https://mosdac.gov.in/tools ###
+
+Meteorological & Oceanographic Satellite Data Archival Centre
+Skip to main Content
+-
+A
+A
++
+A
+A
+A
+हिन्दी
+English
+Secondary menu
+SignUp
+Login
+Logout
+Meteorological & Oceanographic Satellite Data Archival Centre
+Space Applications Centre, ISRO
+Home
+Missions
+INSAT-3DR
+INSAT-3D
+KALPANA-1
+INSAT-3A
+MeghaTropiques
+SARAL-AltiKa
+OCEANSAT-2
+OCEANSAT-3
+INSAT-3DS
+SCATSAT-1
+Catalog
+Satellite
+Insitu (AWS)
+RADAR
+Galleries
+Satellite Products
+Weather Forecast
+Ocean Forecast
+RADAR (DWR)
+Global Ocean Current
+Data Access
+Order Data
+Open Data
+Atmosphere
+Bayesian based MT-SAPHIR rainfall
+GPS derived Integrated water vapour
+GSMap ISRO Rain
+METEOSAT8 Cloud Properties
+Land
+3D Volumetric TERLS DWRproduct
+Inland Water Height
+River Discharge
+Soil Moisture
+Ocean
+Global Ocean Surface Current
+High Resolution Sea Surface Salinity
+Indian Mainland Coastal Product
+Ocean Subsurface
+Oceanic Eddies Detection
+Sea Ice Occurrence Probability
+Wave based Renewable Energy
+Cal-Val
+Forecast
+RSS Feeds
+Reports
+Calibration
+Insitu
+Relative
+Validation
+Data Quality
+Weather
+Atlases
+Tools
+Sitemap
+Help
+You are here
+Home
+» Tools
+Softwares / Tools
+Description
+Platform
+Download URL
+IDV Plugin for INSAT-3D | 3DR Data Products
+IDV Plugin for INSAT-3D | 3DR Data Products
+Linux & Windows - 64 bit
+https://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar
+Format: JAR, Size: 3.3 MB
+Atmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)
+Atmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)
+Windows 32 bit
+https://mosdac.gov.in/software/SACRS2_Package.rar
+Format: RAR, Size: 7.5 MB
+Megha Tropiques batch mode HDF5 to Binary/ASCII converter
+Megha Tropiques batch mode HDF5 to Binary/ASCII converter
+RHEL5 /CentOS5 32 bit
+https://mosdac.gov.in/software/mt-hdf-bin-linux.zip
+Format: ZIP, Size: 3.3 MB
+Megha Tropiques HDF Viewer
+Megha Tropiques HDF Viewer
+RHEL5 /CentOS5 32 bit
+https://mosdac.gov.in/software/hdftool-linux.zip
+Format: ZIP, Size: 9.9 MB
+Megha Tropiques batch mode HDF5 to Binary/ASCII converter
+Megha Tropiques batch mode HDF5 to Binary/ASCII converter
+Windows 32 bit
+https://mosdac.gov.in/software/mt-hdf-bin-txt.zip
+Format: ZIP, Size: 2.9 MB
+Megha Tropiques HDF Viewer
+Megha Tropiques HDF Viewer
+Windows 32 bit
+https://mosdac.gov.in/software/HdfTool.zip
+Format: ZIP, Size: 6.3 MB
+HDF5 TO ASCII converter
+HDF5 TO ASCII converter for Kalpana1-VHRR PR products
+RHEL4 /CentOS4
+https://mosdac.gov.in/software/PR_hdf_ascii.tar
+Format: TAR, Size: 5.3 MB
+HDF5 to ASCII Converter
+HDF5 TO ASCII converter for Kalpana1-VHRR DP products
+RHEL4 /CentOS4
+https://mosdac.gov.in/software/DP_hdf_ascii.tar
+Format: TAR, Size: 6.4 MB
+Search
+Search
+Follow Us
+Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.
+Feedback
+About Us
+Contact Us
+Copyright Policy
+Data Access Policy
+Hyperlink Policy
+Privacy Policy
+Website Policies
+Terms & Conditions
+FAQs
+"Ver 3.0; Last reviewed and updated on
+01 Jul, 2025& Served By:
+Web-Srv-Pri

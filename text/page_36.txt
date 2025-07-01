@@ -1,0 +1,119 @@
+### https://mosdac.gov.in/rss-feed ###
+
+RSS Feed | Meteorological & Oceanographic Satellite Data Archival Centre
+Skip to main Content
+-
+A
+A
++
+A
+A
+A
+हिन्दी
+English
+Secondary menu
+SignUp
+Login
+Logout
+Meteorological & Oceanographic Satellite Data Archival Centre
+Space Applications Centre, ISRO
+Home
+Missions
+INSAT-3DR
+INSAT-3D
+KALPANA-1
+INSAT-3A
+MeghaTropiques
+SARAL-AltiKa
+OCEANSAT-2
+OCEANSAT-3
+INSAT-3DS
+SCATSAT-1
+Catalog
+Satellite
+Insitu (AWS)
+RADAR
+Galleries
+Satellite Products
+Weather Forecast
+Ocean Forecast
+RADAR (DWR)
+Global Ocean Current
+Data Access
+Order Data
+Open Data
+Atmosphere
+Bayesian based MT-SAPHIR rainfall
+GPS derived Integrated water vapour
+GSMap ISRO Rain
+METEOSAT8 Cloud Properties
+Land
+3D Volumetric TERLS DWRproduct
+Inland Water Height
+River Discharge
+Soil Moisture
+Ocean
+Global Ocean Surface Current
+High Resolution Sea Surface Salinity
+Indian Mainland Coastal Product
+Ocean Subsurface
+Oceanic Eddies Detection
+Sea Ice Occurrence Probability
+Wave based Renewable Energy
+Cal-Val
+Forecast
+RSS Feeds
+Reports
+Calibration
+Insitu
+Relative
+Validation
+Data Quality
+Weather
+Atlases
+Tools
+Sitemap
+Help
+You are here
+Home
+»
+Data Access
+» RSS Feeds
+RSS Feed
+Uses RSS (Rich Site Summary) based technology for dissemination of Satellite Images and Data Products to end users on Internet
+Allow Users to subscribe to these feeds automatically and get notified for availability of new data sets
+Feed subscription is supported by Standard browsers and on RSS readers available on Mobile Apps
+Enhanced Features specific to Satellite Data are Planned in Customized Client, supporting automated download, analysis and visualization of data Currently SCATSAT-1 High Resolution Products are available, soon more products are planned to be added.
+Access the feeds using below links:
+SCATSAT-1 Feed
+:
+https://mosdac.gov.in/isrocast.xml
+INSAT3D-Imager Feed
+:
+https://mosdac.gov.in/3dimager.xml
+INSAT3D-Sounder Feed
+:
+https://mosdac.gov.in/3dsounder.xml
+INSAT3DR-Imager Feed
+:
+https://mosdac.gov.in/3drimager.xml
+INSAT3DR-Sounder Feed
+:
+https://mosdac.gov.in/3drsounder.xml
+Search
+Search
+Follow Us
+Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.
+Feedback
+About Us
+Contact Us
+Copyright Policy
+Data Access Policy
+Hyperlink Policy
+Privacy Policy
+Website Policies
+Terms & Conditions
+FAQs
+"Ver 3.0; Last reviewed and updated on
+01 Jul, 2025& Served By:
+Web-Srv-Pri
