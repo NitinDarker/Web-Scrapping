@@ -1,4 +1,4 @@
-### https://mosdac.gov.in/internal/catalog-radar ###
+https://mosdac.gov.in/internal/catalog-radar
 
 Radar Catalog
 A-

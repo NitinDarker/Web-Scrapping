@@ -1,4 +1,4 @@
-### https://mosdac.gov.in/data-quality?language=en ###
+https://mosdac.gov.in/data-quality?language=en
 
 Data Quality | Meteorological & Oceanographic Satellite Data Archival Centre
 Skip to main Content

@@ -1,4 +1,4 @@
-### https://mosdac.gov.in/rss-feed?language=en ###
+https://mosdac.gov.in/rss-feed?language=en
 
 RSS Feed | Meteorological & Oceanographic Satellite Data Archival Centre
 Skip to main Content

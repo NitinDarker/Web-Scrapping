@@ -1,4 +1,4 @@
-### https://mosdac.gov.in/gsmap-isro-rain?language=en ###
+https://mosdac.gov.in/gsmap-isro-rain?language=en
 
 GSMap ISRO Rain | Meteorological & Oceanographic Satellite Data Archival Centre
 Skip to main Content

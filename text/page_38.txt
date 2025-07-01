@@ -1,4 +1,4 @@
-### https://mosdac.gov.in/calibration-reports ###
+https://mosdac.gov.in/calibration-reports
 
 Relative | Meteorological & Oceanographic Satellite Data Archival Centre
 Skip to main Content

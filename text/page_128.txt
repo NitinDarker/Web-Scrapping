@@ -1,4 +1,4 @@
-### https://mosdac.gov.in/validation-reports?language=en ###
+https://mosdac.gov.in/validation-reports?language=en
 
 Validation | Meteorological & Oceanographic Satellite Data Archival Centre
 Skip to main Content

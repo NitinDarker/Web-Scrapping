@@ -1,4 +1,4 @@
-### https://mosdac.gov.in/atlases?language=en ###
+https://mosdac.gov.in/atlases?language=en
 
 Atlases | Meteorological & Oceanographic Satellite Data Archival Centre
 Skip to main Content

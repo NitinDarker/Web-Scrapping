@@ -1,4 +1,4 @@
-### https://mosdac.gov.in/mosdac-feedback ###
+https://mosdac.gov.in/mosdac-feedback
 
 MOSDAC Feedback | Meteorological & Oceanographic Satellite Data Archival Centre
 Skip to main Content
@@ -110,7 +110,7 @@ Enter your valid Email Id
 Comments
 Math question
 *
-6 + 2 =
+2 + 7 =
 Solve this simple math problem and enter the result. E.g. for 1+3, enter 4.
 Search
 Search

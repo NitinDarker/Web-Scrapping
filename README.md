@@ -25,7 +25,6 @@ This repository contains a Python-based web scraping script to extract static da
    pip install requests beautifulsoup4 pandas lxml
     ```
 
-   ---
 
 3. Run the script:
 

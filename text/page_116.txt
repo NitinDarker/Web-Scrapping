@@ -1,4 +1,4 @@
-### https://mosdac.gov.in/river-discharge?language=en ###
+https://mosdac.gov.in/river-discharge?language=en
 
 River Discharge | Meteorological & Oceanographic Satellite Data Archival Centre
 Skip to main Content

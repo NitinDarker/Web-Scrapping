@@ -1,4 +1,4 @@
-### https://mosdac.gov.in/gps-derived-integrated-water-vapour ###
+https://mosdac.gov.in/gps-derived-integrated-water-vapour
 
 GPS derived Integrated water vapour | Meteorological & Oceanographic Satellite Data Archival Centre
 Skip to main Content

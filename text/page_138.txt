@@ -1,4 +1,4 @@
-### https://mosdac.gov.in/atlas?language=en&sort=desc&order=modified ###
+https://mosdac.gov.in/atlas?language=en&sort=desc&order=modified
 
 Atlas | Meteorological & Oceanographic Satellite Data Archival Centre
 Skip to main Content

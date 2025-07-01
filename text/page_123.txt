@@ -1,4 +1,4 @@
-### https://mosdac.gov.in/sea-ice-occurrence-probability?language=en ###
+https://mosdac.gov.in/sea-ice-occurrence-probability?language=en
 
 Sea Ice Occurrence Probability | Meteorological & Oceanographic Satellite Data Archival Centre
 Skip to main Content

@@ -1,4 +1,4 @@
-### https://mosdac.gov.in/oceanic-eddies-detection ###
+https://mosdac.gov.in/oceanic-eddies-detection
 
 Oceanic Eddies Detection | Meteorological & Oceanographic Satellite Data Archival Centre
 Skip to main Content
