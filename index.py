@@ -1,12 +1,11 @@
 import json, time, random
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin, urlparse, urlunparse
-from concurrent.futures import ThreadPoolExecutor
+from pathlib import PurePosixPath
+from urllib.parse import urlparse, urlunparse, urljoin
 
 BASE_URL    = "https://mosdac.gov.in/"
 MAX_PAGES   = 10000
-MAX_THREADS = 10
 DELAY       = 0.01
 HEADERS     = {
     "User-Agent": "Mozilla/5.0"
@@ -15,17 +14,30 @@ HEADERS     = {
 visited = set()
 results = []
 session = requests.Session()
+FORBIDDEN_EXTENSIONS = {'.zip', '.tar', '.gz', '.rar', '.7z', '.pdf', '.xml', '.exe', '.msi', '.tar.gz', '.tgz', '.html'}
 
 def normalize_url(url):
-    parsed = urlparse(url)
-    cleaned = parsed._replace(query="", fragment="")
-    return urlunparse(cleaned).rstrip('/')
+    absolute_url = urljoin(BASE_URL, url)
+    parsed = urlparse(absolute_url)
+    path = parsed.path.rstrip('/')
+    if not path:
+        path = '/'
+    cleaned = parsed._replace(path=path, query="", fragment="")
+    return urlunparse(cleaned)
 
 def is_internal(link):
-    return urlparse(link).netloc == urlparse(BASE_URL).netloc
+    absolute = urljoin(BASE_URL, link)
+    return urlparse(absolute).netloc == urlparse(BASE_URL).netloc
+
+def has_forbidden_extension(url):
+    path = urlparse(url).path.lower()
+    suffixes = PurePosixPath(path).suffixes
+    combined = ''.join(suffixes)
+    return combined in FORBIDDEN_EXTENSIONS
+
 
 def clean_html(soup):
-    for tag in soup(['script', 'style', 'header', 'footer', 'nav', 'noscript']):
+    for tag in soup(['script', 'style', 'noscript']):
         tag.decompose()
     return soup
 
@@ -37,9 +49,6 @@ def extract_main_content(soup):
 
 def extract_page_data(url):
     try:
-        if url.lower().endswith(".pdf"):
-            return None
-
         r = session.get(url, headers=HEADERS, timeout=5)
         if "text/html" not in r.headers.get("Content-Type", ""):
             return None
@@ -48,45 +57,77 @@ def extract_page_data(url):
         soup = BeautifulSoup(r.text, "lxml")
         clean_html(soup)
 
-        title = soup.title.string.strip() if soup.title else ""
+        raw_title = soup.title.string.strip() if soup.title else ""
+        suffix = " | Meteorological & Oceanographic Satellite Data Archival Centre"
+        title = raw_title.removesuffix(suffix).strip()
+        
         content = extract_main_content(soup)
+
+        links = []
+        for tag in soup.find_all("a", href=True):
+            href = tag["href"]
+            absolute = urljoin(url, href)
+            normalized = normalize_url(absolute)
+            if (
+                "javascript:void" in normalized
+                or not is_internal(normalized)
+                or "/download" in urlparse(normalized).path
+                or "/node/" in urlparse(normalized).path
+                or "/auth/" in urlparse(normalized).path
+                or "/internal/" in urlparse(normalized).path
+                or has_forbidden_extension(normalized)
+            ):
+                continue
+            links.append(normalized)
 
         if content:
             results.append({
                 "url": url,
                 "title": title,
-                "content": content
+                "content": content,
+                "links": sorted(set(links))
             })
+            
         return soup
     except:
         return None
 
-def crawl(url, executor):
+def crawl(url):
     url = normalize_url(url)
+    print("Crawling... " + url)
     if url in visited or len(visited) >= MAX_PAGES:
         return
     visited.add(url)
-    time.sleep(random.uniform(DELAY, DELAY + 0.1))
+    time.sleep(random.uniform(DELAY, DELAY + 0.01))
 
     soup = extract_page_data(url)
     if not soup:
         return
 
     for tag in soup.find_all("a", href=True):
-        link = urljoin(url, tag["href"])
-        link = normalize_url(link)
-        if "javascript:void" in link or not is_internal(link):
+        href = tag["href"]
+        absolute = urljoin(url, href)
+        normalized = normalize_url(absolute)
+        if (
+            "javascript:void" in normalized
+            or not is_internal(normalized)
+            or "/download" in urlparse(normalized).path
+            or "/node/" in urlparse(normalized).path
+            or "/auth/" in urlparse(normalized).path
+            or "/internal/" in urlparse(normalized).path
+            or has_forbidden_extension(normalized)
+        ):
             continue
-        if link not in visited:
-            executor.submit(crawl, link, executor)
+        if normalized not in visited:
+            crawl(normalized)
 
+# Dumps the results into output.json
 def save_output(filename="output.json"):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
-    print("🚀 Starting crawl...")
-    with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
-        crawl(BASE_URL, executor)
+    print("Starting Crawler...")
+    crawl(BASE_URL)
     save_output()
     print(f"✅ Done. {len(results)} pages saved to output.json")
