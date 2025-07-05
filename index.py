@@ -1,119 +1,109 @@
-import os
-import time
-import random
+import os, json, time, random
 import requests
-import pandas as pd
-from io import StringIO
-from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
+from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 from concurrent.futures import ThreadPoolExecutor
-import warnings
 
-warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
+# ─────────────────────────────
+# CONFIGURATION
+# ─────────────────────────────
 
-# Config
-BASE_URL = "https://mosdac.gov.in/"
-MAX_PAGES = 300
-MAX_THREADS = 4
-DELAY = 0.2
-visited = set()
-
-# Output Folders
-TEXT_DIR = "text"
-PDF_DIR = "pdfs"
-CSV_DIR = "csv"
-for folder in [TEXT_DIR, PDF_DIR, CSV_DIR]:
-    os.makedirs(folder, exist_ok=True)
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0",
-    "Accept-Language": "en-US,en;q=0.9"
+BASE_URL    = "https://mosdac.gov.in/"  # Starting point of the crawl
+MAX_PAGES   = 100                       # Limit to how many pages we crawl
+MAX_THREADS = 6                         # Number of threads to speed up crawling
+DELAY       = 0.1                       # Delay between requests to be polite
+HEADERS     = {                         # Request headers to mimic a real browser
+    "User-Agent": "Mozilla/5.0"
 }
-session = requests.Session()
 
-def safe_get(url):
-    try:
-        res = session.get(url, headers=HEADERS, timeout=10)
-        if res.status_code == 200:
-            res.encoding = res.apparent_encoding
-            return res
-    except:
-        pass
-    return None
+# ─────────────────────────────
+# GLOBAL VARIABLES
+# ─────────────────────────────
 
-def is_internal(url):
-    return urlparse(url).netloc == urlparse(BASE_URL).netloc
+visited = set()        # Tracks which URLs we've already crawled
+results = []           # Stores the final data we extract
+session = requests.Session()  # Reuse a session for efficiency
 
-def extract_text(soup, url, page_id):
-    for tag in soup(["script", "style", "noscript"]):
+# ─────────────────────────────
+# CHECK IF URL IS INTERNAL
+# ─────────────────────────────
+def is_internal(link):
+    """Check if a URL belongs to the same domain as the base URL."""
+    return urlparse(link).netloc == urlparse(BASE_URL).netloc
+
+# ─────────────────────────────
+# CLEAN HTML TO REMOVE UNWANTED TAGS
+# ─────────────────────────────
+def clean_html(soup):
+    """Remove scripts, styles, headers, navbars, etc. from HTML."""
+    for tag in soup(["script", "style", "header", "footer", "nav", "aside", "noscript"]):
         tag.decompose()
-    text = soup.get_text(separator="\n", strip=True)
-    if text:
-        path = os.path.join(TEXT_DIR, f"page_{page_id}.txt")
-        with open(path, "w", encoding="utf-8") as f:
-            f.write(f"{url}\n\n{text}")
-        print(f"[TXT] {path}")
+    return soup
 
-def extract_tables(soup, page_id):
+# ─────────────────────────────
+# EXTRACT PAGE DATA
+# ─────────────────────────────
+def extract_page_data(url):
+    """Download and extract title and text content from a single page."""
     try:
-        tables = pd.read_html(StringIO(str(soup)))
-        for i, table in enumerate(tables):
-            path = os.path.join(CSV_DIR, f"table_{page_id}_{i}.csv")
-            table.to_csv(path, index=False)
-            print(f"[CSV] {path}")
+        r = session.get(url, headers=HEADERS, timeout=10)
+        if r.status_code != 200:
+            return
+        r.encoding = r.apparent_encoding
+        soup = BeautifulSoup(r.text, "lxml")
+        clean_html(soup)
+
+        # Get title and main content
+        title = soup.title.string.strip() if soup.title else ""
+        content = soup.get_text(separator="\n", strip=True)
+
+        # Store if page has meaningful content
+        if content:
+            results.append({
+                "url": url,
+                "title": title,
+                "content": content
+            })
+        return soup
     except:
-        pass
+        return None
 
-def download_pdf(url):
-    name = os.path.basename(url)
-    path = os.path.join(PDF_DIR, name)
-    if not os.path.exists(path):
-        res = safe_get(url)
-        if res:
-            with open(path, 'wb') as f:
-                f.write(res.content)
-            print(f"[PDF] {path}")
-
-def get_soup(res, url):
-    content_type = res.headers.get('Content-Type', '').lower()
-    if 'xml' in content_type or url.lower().endswith('.xml'):
-        return BeautifulSoup(res.text, 'xml')  # Use XML parser
-    return BeautifulSoup(res.text, 'lxml')     # Default to HTML parser
-
-def crawl(url, page_id=0, executor=None):
+# ─────────────────────────────
+# CRAWL A SINGLE PAGE
+# ─────────────────────────────
+def crawl(url, executor):
+    """Recursive function to crawl a page and its internal links."""
     if url in visited or len(visited) >= MAX_PAGES:
         return
-    if "javascript:void" in url or "#" in url:
-        return
     visited.add(url)
-    time.sleep(random.uniform(DELAY, DELAY + 0.1))
+    time.sleep(random.uniform(DELAY, DELAY + 0.1))  # Add delay to avoid hammering the server
 
-    res = safe_get(url)
-    if not res:
+    soup = extract_page_data(url)
+    if not soup:
         return
 
-    try:
-        soup = get_soup(res, url)
-    except Exception as e:
-        print(f"[!] Failed to parse: {url} ({e})")
-        return
-
-    print(f"[+] Crawling: {url}")
-    extract_text(soup, url, page_id)
-    extract_tables(soup, page_id)
-
+    # Find and crawl internal links
     for tag in soup.find_all("a", href=True):
         link = urljoin(url, tag["href"])
-        if link.lower().endswith(".pdf") and executor:
-            executor.submit(download_pdf, link)
-
-    for tag in soup.find_all("a", href=True):
-        link = urljoin(url, tag["href"])
+        if "#" in link or "javascript:void" in link:
+            continue
         if is_internal(link) and link not in visited:
-            crawl(link, page_id + 1, executor)
+            executor.submit(crawl, link, executor)
 
+# ─────────────────────────────
+# SAVE FINAL DATA TO JSON FILE
+# ─────────────────────────────
+def save_output(filename="output.json"):
+    """Write the results list to a JSON file."""
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+
+# ─────────────────────────────
+# MAIN EXECUTION BLOCK
+# ─────────────────────────────
 if __name__ == "__main__":
-    print("🚀 Starting simple scraper...")
+    print("🚀 Starting crawl...")
     with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
-        crawl(BASE_URL, 0, executor)
-    print("✅ Done.")
+        crawl(BASE_URL, executor)
+    save_output()
+    print(f"✅ Done. {len(results)} pages saved to output.json")
